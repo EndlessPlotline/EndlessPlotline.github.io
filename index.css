@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Coda|Slabo+27px');
 
+/* body text style */
+body {
+    font-family: "Slabo 27px", "Garamond", serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+
 html, body {
     margin: 0;
 }
 
 #content {
     margin: 15px;
+    margin-left: 60px;
+    max-width: 1200px;
 }
 
 header {
@@ -13,21 +24,25 @@ header {
     background: #33ff44;
 }
 
-/* body text style */
-body {
-    font-family: "Slabo 27px", "Garamond", serif;
-    font-size: 20px;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Coda", Garamond;
     margin: 0;
 }
 
-p {
-    margin: 5px;
+h2 {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+p, ol, ul {
+    margin: 5px 0;
+}
+
+p + p {
+    text-indent: 4ch;
 }
 
 .subtitle {
     font-style: italic;
+    margin-top: 0;
 }
