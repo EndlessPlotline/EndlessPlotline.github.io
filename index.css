@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Coda|Slabo+27px');
+
+html, body {
+    margin: 0;
+}
+
+#content {
+    margin: 15px;
+}
+
+header {
+    text-align: center;
+    background: #33ff44;
+}
+
+/* body text style */
+body {
+    font-family: "Slabo 27px", "Garamond", serif;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Coda", Garamond;
+    margin: 0;
+}
+
+p {
+    margin: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+}
